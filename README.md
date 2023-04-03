@@ -15,3 +15,14 @@ demo-project: ku.review
   }
     ```
 - GET: http://localhost:8091/api/review/[:restaurantId]
+
+## get token
+
+from Auth0
+
+- login auth0.com
+- create api project
+- go to the project dashboard, test -> curl
+  ![get-token](readme_images/get-token.png)
+- set returned token as `Bearer Token`
+
